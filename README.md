@@ -39,13 +39,13 @@ This demo is based on [Tuya IoT Platform](https://iot.tuya.com/), Tuya Smart APP
 ```
 ├── include	/* Header files */
 │   ├── driver
-│	│   ├── tuya_motor.h	/* Stepper motor drive */
-│	│	├── tuya_thermal_head.h	/* Thermal head drive */
+│	  │   ├── tuya_motor.h	/* Stepper motor drive */
+│	  │	  ├── tuya_thermal_head.h	/* Thermal head drive */
 │   ├── tuya_device.h	/* Entry file of application layer */
 ├── src	/* Source code files */
 │   ├── driver
-│	│   ├── tuya_motor.c	/* Stepper motor drive */
-│	│	├── tuya_thermal_head.c	/* Thermal head drive */
+│	  │   ├── tuya_motor.c	/* Stepper motor drive */
+│	  │  	├── tuya_thermal_head.c	/* Thermal head drive */
 │   ├── tuya_device.c	/* Entry file of application layer */
 ├── README.md
 ├── README_zh.md
